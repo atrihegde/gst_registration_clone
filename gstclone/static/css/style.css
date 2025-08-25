@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.header_title{
+    height: 80px;
+    background-color: #002257;
+    color: white;
+    justify-content: space-between;
+    padding: 16px;
+    padding-inline: 50px;
+    display: flex;
+}
+
+.header_titleText{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+
+.header_titleText>h1 {
+    font-size: 32px;
+    font-weight: 500;
+    padding-inline: 25px;
+    display: flex;
+}
+
+.header_titleLogin {
+    font-size: 13px;
+}
+
+.header_login{
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.header__menu{
+    background-color: #1b5183;
+    color: #fff;
+    display: flex;
+    font-family: Ibarra Real Nova, serif;
+    padding-inline: 15px;
+}
+
+.header__menuItem>p {
+    border-right: 1px solid grey;
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    min-width: 95px;
+    padding: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login{
+    background-color: #e3e8eb;
+}
+
+.login__block{
+    margin: auto;
+    width: 80%;
+}
+
+.login__blockBreadcrumb{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.breadcrumb-custom{
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.login__blockForm {
+    padding: 12px 20px;
+    background-color: #fff;
+    min-height: 440px;
+}
+
+.login__blockFormContent {
+    margin: auto;
+    padding-top: 7px;
+    width: 465px;
+}
+
+.register__stepper {
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+
+.register__stepperSub {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.register__stepperNo {
+    background: #7e7e7e;
+    border-radius: 50%;
+    color: #fff;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    width: 40px;
+}
+
+.register__stepperTxt {
+    text-align: center;
+}
+
+.register__stepperDividerLine {
+    width: 30px;
+}
+
+.register__stepperDividerLineSub {
+    border-bottom: 2px solid #7e7e7e;
+    height: 20px;
+    margin-inline: -29px;
+    width: 88px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.login__blockFormContent>h2 {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.login__blockFormContentNote {
+    display: flex;
+    font-size: 13px;
+    justify-content: flex-end;
+    padding-top: 6px;
+}
+
+.dot {
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    height: 6px;
+    margin-inline: 5px;
+    width: 6px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.home__radio {
+    font-size: 14.5px;
+    margin-bottom: 10px;
+}
+
+
+input[type="radio"] {
+  accent-color: green;
+}
+
+.login__blockFormLabel {
+    display: flex;
+    font-size: 15px;
+    margin-bottom: -7px;
+}
+
+.selectMy {
+    height: 36px;
+    background: #fff;
+    border: 1px solid #c0bfbf;
+    border-radius: 0;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 100%;
+}
+
+.login__blockFormInput {
+    border: 1px solid #c0bfbf;
+    color: #555;
+    font-size: 15px;
+    height: 36px;
+    margin-bottom: 10px;
+    padding: 6px;
+    width: 100%;
+}
+
+.email-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.email-icon {
+  background: #eee;
+  width: 35px;
+  height: 36.5px;
+  padding-inline: 8px;
+  font-size: 18px;
+  border: 1px solid lightgrey;
+  color: #616161;
+}
+
+.login__blockFormContentButton {
+    margin-right: 10px;
+    background: #1b5183;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 16px;
+    padding: 7px;
+    padding-inline: 28px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    cursor: pointer;
+}
