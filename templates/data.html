@@ -78,21 +78,33 @@
             <h3 class="text-center">New Registration Data</h3>
             <table class="table">
               <tr>
+                <td>Primary Key</td>
                 <td>State</td>
                 <td>District</td>
                 <td>Name of Business</td>
                 <td>PAN Number</td>
                 <td>Email</td>
+                <td></td>
               </tr>
 
               {% for i in data %}
               <tr>
+                <td>{{ i.pk }}</td>
                 <td>{{ i.state_ut }}</td>
                 <td>{{i.district}}</td>
                 <td>{{i.legalBusinessName}}</td>
                 <td>{{i.panNumber}}</td>
                 <td>{{i.email}}</td>
+                <td>
+                  <a
+                    href="{% url 'edit' i.pk %}"
+                    class="btn btn-sm btn-primary"
+                  >
+                    Edit
+                  </a>
+                </td>
               </tr>
+
               {% endfor %}
             </table>
           </div>

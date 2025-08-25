@@ -23,6 +23,7 @@ urlpatterns = [
     path('', views.home),
     path('register/', include('registration.urls')),
     path('data/', views.data, name='data'),
+    path('data/<int:pk>/', views.edit, name='edit')
 ]
 
 
