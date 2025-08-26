@@ -16,7 +16,7 @@ def registration_view(request):
             email=request.POST.get('email'),
         )
         return redirect('/')  # Redirect after saving
-    return render(request, 'registration.html')
+    return render(request, 'index.html')
 
 def trn_registration_view(request):
     if request.method == 'POST':
@@ -37,6 +37,8 @@ def data(request):
 def edit(request, pk):
     edit_data = get_object_or_404(Registration, pk=pk)
     if request.method == 'POST':
+        edit_data.registrationType=request.POST.get('registrationType')
+        edit_data.userType=request.POST.get('userType')
         edit_data.state_ut = request.POST.get('state_ut')
         edit_data.district = request.POST.get('district')
         edit_data.legalBusinessName = request.POST.get('legalBusinessName')
@@ -49,4 +51,4 @@ def edit(request, pk):
         context ={
             'edit_data' : edit_data
         }
-    return render(request, 'edit_data.html', context)
+    return render(request, 'index.html', context)

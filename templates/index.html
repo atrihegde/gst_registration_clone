@@ -1,7 +1,4 @@
-{% extends 'base.html' %}
-{% load static %}
-
-{% block content %}
+{% extends 'base.html' %} {% load static %} {% block content %}
 <div class="login__blockForm">
   <div class="login__blockFormContent">
     <div class="register__stepper">
@@ -44,17 +41,24 @@
     <form
       id="newRegistrationForm"
       method="post"
-      action="{% url 'registration' %}"
+      action="{% if edit_data %}{% url 'edit' edit_data.id %}{% else %}{% url 'registration' %}{% endif %}"
     >
       {% csrf_token %}
+
       <input type="hidden" name="registrationType" value="newRegistration" />
       <div class="login__blockFormLabel">
         <p>Iam a</p>
         <span class="dot"></span>
       </div>
       <select class="selectMy dropdown-toggle" name="userType" required>
+        {% if edit_data %}
+        <option value="{{ edit_data.userType }}" selected>
+          {{ edit_data.userType }}
+        </option>
+        {% else %}
         <option value="" disabled selected>Select</option>
         <option value="taxpayer">Taxpayer</option>
+        {% endif %}
       </select>
 
       <div class="login__blockFormLabel">
@@ -62,7 +66,13 @@
         <span class="dot"></span>
       </div>
       <select id="state" name="state_ut" class="selectMy state" required>
+        {% if edit_data %}
+        <option value="{{ edit_data.state_ut }}" selected>
+          {{ edit_data.state_ut }}
+        </option>
+        {% else %}
         <option value="" disabled selected>Select</option>
+        {% endif %}
       </select>
 
       <div class="login__blockFormLabel">
@@ -75,7 +85,13 @@
         class="selectMy dropdown-toggle"
         required
       >
+        {% if edit_data %}
+        <option value="{{ edit_data.district }}" selected>
+          {{ edit_data.district }}
+        </option>
+        {% else %}
         <option value="" disabled selected>Select State first</option>
+        {% endif %}
       </select>
 
       <div class="login__blockFormLabel">
@@ -87,6 +103,7 @@
         class="login__blockFormInput"
         type="text"
         name="legalBusinessName"
+        value="{% if edit_data %}{{ edit_data.legalBusinessName }}{% endif %}"
         placeholder="Enter Legal Name of the Business"
         required
       />
@@ -99,6 +116,7 @@
         class="login__blockFormInput"
         type="text"
         name="panNumber"
+        value="{% if edit_data %} {{ edit_data.panNumber }} {% endif %}"
         placeholder="Enter Permanent Account Number (PAN)"
         required
       />
@@ -127,6 +145,7 @@
         <input
           type="email"
           name="email"
+          value="{% if edit_data %} {{ edit_data.email }} {% endif %}"
           placeholder="Enter your email address"
           style="
             border: none;
@@ -215,7 +234,7 @@
       />
 
       <button class="login__blockFormContentButton" type="submit">
-        PROCEED
+        {% if edit_data %} Update {% else %} Register {% endif %}
       </button>
     </form>
 
