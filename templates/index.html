@@ -1,358 +1,263 @@
+{% extends 'base.html' %}
 {% load static %}
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GST Portal Clone</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="..."
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    />
-    <script src="{% static 'js/script.js' %}"></script>
-  </head>
-  <body>
-    <header>
-      <div class="header">
-        <div class="header_title">
-          <div class="header_titleText">
-            <h1>Goods and Services Tax</h1>
-            <span>(for educational purpose only)</span>
-          </div>
-          <div class="header_login">
-            <i class="fa-solid fa-arrow-right-to-bracket"></i>
-            <div class="header_titleLogin">
-              <p>login</p>
-            </div>
-          </div>
-        </div>
-        <div class="header__menu">
-          <div class="header__menuItem">
-            <p>Home</p>
-          </div>
-          <div class="header__menuItem dropdown">
-            <p>Services</p>
-          </div>
-          <div class="header__menuItem">
-            <p>GST Law</p>
-          </div>
-          <div class="header__menuItem">
-            <p>Downloads</p>
-          </div>
-          <div class="header__menuItem">
-            <p>Search Taxpayer</p>
-          </div>
-          <div class="header__menuItem">
-            <p>Help and Taxpayer Facilities</p>
-          </div>
-          <div class="header__menuItem">
-            <p>e-Invoice</p>
-          </div>
-        </div>
+{% block content %}
+<div class="login__blockForm">
+  <div class="login__blockFormContent">
+    <div class="register__stepper">
+      <div class="register__stepperSub">
+        <p class="register__stepperNo" style="background: rgb(236, 157, 10)">
+          1
+        </p>
+        <p class="register__stepperTxt">User Credentials</p>
       </div>
-      <div class="login">
-        <div class="login__block">
-          <div class="login__blockBreadcrumb">
-            <nav aria-label="breadcrumb" class="breadcrumb-custom">
-              <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item">
-                  <a href="#" class="breadcrumb-link">Home</a>
-                </li>
-                <li class="breadcrumb-item active" aria-current="page">
-                  Registration
-                </li>
-              </ol>
-            </nav>
-          </div>
-          <div class="login__blockForm">
-            <div class="login__blockFormContent">
-              <div class="register__stepper">
-                <div class="register__stepperSub">
-                  <p
-                    class="register__stepperNo"
-                    style="background: rgb(236, 157, 10)"
-                  >
-                    1
-                  </p>
-                  <p class="register__stepperTxt">User Credentials</p>
-                </div>
-                <div class="register__stepperDividerLine">
-                  <div class="register__stepperDividerLineSub"></div>
-                </div>
-                <div class="register__stepperSub">
-                  <p class="register__stepperNo">2</p>
-                  <p class="register__stepperTxt">OTP Verification</p>
-                </div>
-              </div>
-              <h2>New Registration</h2>
-              <hr class="custom-divider" />
-              <div class="login__blockFormContentNote">
-                <span class="dot"></span>
-                <p>indicates mandatory fields</p>
-              </div>
-              <div class="home__radio">
-                <label>
-                  <input
-                    type="radio"
-                    name="registrationType"
-                    value="newRegistration"
-                    checked
-                  />
-                  New Registration
-                </label>
-                <label>
-                  <input type="radio" name="registrationType" value="trn" />
-                  Temporary Reference Number (TRN)
-                </label>
-              </div>
-
-              <form
-                id="newRegistrationForm"
-                method="post"
-                action="{% url 'registration' %}"
-              >
-                {% csrf_token %}
-                <input
-                  type="hidden"
-                  name="registrationType"
-                  value="newRegistration"
-                />
-                <div class="login__blockFormLabel">
-                  <p>Iam a</p>
-                  <span class="dot"></span>
-                </div>
-                <select
-                  class="selectMy dropdown-toggle"
-                  name="userType"
-                  required
-                >
-                  <option value="" disabled selected>Select</option>
-                  <option value="taxpayer">Taxpayer</option>
-                </select>
-
-                <div class="login__blockFormLabel">
-                  <p>State / UT</p>
-                  <span class="dot"></span>
-                </div>
-                <select
-                  id="state"
-                  name="state_ut"
-                  class="selectMy state"
-                  required
-                >
-                  <option value="" disabled selected>Select</option>
-                </select>
-
-                <div class="login__blockFormLabel">
-                  <p>District</p>
-                  <span class="dot"></span>
-                </div>
-                <select
-                  id="district"
-                  name="district"
-                  class="selectMy dropdown-toggle"
-                  required
-                >
-                  <option value="" disabled selected>Select State first</option>
-                </select>
-
-                <div class="login__blockFormLabel">
-                  <p>Legal Name Of The Business</p>
-                  <p style="font-size: 14px">(As mentioned in PAN)</p>
-                  <span class="dot"></span>
-                </div>
-                <input
-                  class="login__blockFormInput"
-                  type="text"
-                  name="legalBusinessName"
-                  placeholder="Enter Legal Name of the Business"
-                  required
-                />
-
-                <div class="login__blockFormLabel">
-                  <p>Permanent Account Number</p>
-                  <span class="dot"></span>
-                </div>
-                <input
-                  class="login__blockFormInput"
-                  type="text"
-                  name="panNumber"
-                  placeholder="Enter Permanent Account Number (PAN)"
-                  required
-                />
-
-                <div class="login__blockFormLabel">
-                  <p>Email Address</p>
-                  <span class="dot"></span>
-                </div>
-                <div
-                  style="
-                    display: flex;
-                    align-items: center;
-                    border: 1px solid #c0bfbf;
-                    margin-bottom: 10px;
-                  "
-                >
-                  <div
-                    style="
-                      padding: 8px;
-                      background: #f9f9f9;
-                      border-right: 1px solid #e0e0e0;
-                    "
-                  >
-                    📧
-                  </div>
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Enter your email address"
-                    style="
-                      border: none;
-                      padding: 6px;
-                      outline: none;
-                      flex: 1;
-                      font-size: 15px;
-                      color: #555;
-                      height: 36px;
-                    "
-                    required
-                  />
-                </div>
-
-                <div style="margin: 10px 0; display: flex; align-items: center">
-                  <span style="font-size: 18px">ℹ️</span>
-                  <span style="font-size: 15px; margin-left: 5px"
-                    >OTP will be sent to this Email Address</span
-                  >
-                </div>
-
-                <div class="login__blockFormLabel">
-                  <p>Mobile Number</p>
-                  <span class="dot"></span>
-                </div>
-                <div
-                  style="
-                    display: flex;
-                    align-items: center;
-                    border: 1px solid #ccc;
-                    height: 38px;
-                  "
-                >
-                  <span
-                    style="
-                      background: #eee;
-                      padding: 0 12px;
-                      display: flex;
-                      align-items: center;
-                      height: 100%;
-                    "
-                    >+91</span
-                  >
-                  <input
-                    type="number"
-                    value="0000000000"
-                    disabled
-                    style="
-                      border: none;
-                      outline: none;
-                      padding: 0 10px;
-                      height: 100%;
-                      width: 100%;
-                    "
-                  />
-                </div>
-                <div style="margin: 10px 0; display: flex; align-items: center">
-                  <span style="font-size: 18px">ℹ️</span>
-                  <span style="font-size: 15px; margin-left: 5px">
-                    Separate OTP will be sent to this mobile number</span
-                  >
-                </div>
-
-                <div class="login__blockFormLabel">
-                  <p>Type the characters you see in the image below</p>
-                  <span class="dot"></span>
-                </div>
-                <input
-                  type="text"
-                  name="captcha"
-                  placeholder="Enter characters shown below"
-                  required
-                  style="
-                    padding: 8px;
-                    width: 100%;
-                    border: 1px solid #ccc;
-                    border-radius: 4px;
-                    font-size: 14px;
-                  "
-                />
-
-                <img
-                  src=""
-                  alt="CAPTCHA"
-                  style="width: 150px; height: 60px; margin-top: 10px"
-                />
-
-                <button class="login__blockFormContentButton" type="submit">
-                  PROCEED
-                </button>
-              </form>
-
-              <!-- TRN Form Section -->
-              <form
-                id="trnForm"
-                method="post"
-                action="{% url 'trn_registration' %}"
-              >
-                {% csrf_token %}
-                <div class="login__blockFormLabel">
-                  <p>Temporary Reference Number (TRN)</p>
-                  <span class="dot"></span>
-                </div>
-
-                <input
-                  class="login__blockFormInput"
-                  type="text"
-                  name="trn"
-                  placeholder="Enter Temporary Reference Number (TRN)"
-                  required
-                />
-
-                <div class="login__blockFormLabel">
-                  <p>Type the characters you see in the image below</p>
-                  <span class="dot"></span>
-                </div>
-
-                <input
-                  class="login__blockFormInput"
-                  type="text"
-                  name="captcha_trn"
-                  placeholder="Enter characters shown below"
-                  required
-                />
-
-                <img
-                  src=""
-                  alt="CAPTCHA"
-                  style="width: 150px; height: 60px; margin-top: 10px"
-                />
-
-                <button class="login__blockFormContentButton" type="submit">
-                  PROCEED
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
+      <div class="register__stepperDividerLine">
+        <div class="register__stepperDividerLineSub"></div>
       </div>
-    </header>
-  </body>
-</html>
+      <div class="register__stepperSub">
+        <p class="register__stepperNo">2</p>
+        <p class="register__stepperTxt">OTP Verification</p>
+      </div>
+    </div>
+    <h2>New Registration</h2>
+    <hr class="custom-divider" />
+    <div class="login__blockFormContentNote">
+      <span class="dot"></span>
+      <p>indicates mandatory fields</p>
+    </div>
+    <div class="home__radio">
+      <label>
+        <input
+          type="radio"
+          name="registrationType"
+          value="newRegistration"
+          checked
+        />
+        New Registration
+      </label>
+      <label>
+        <input type="radio" name="registrationType" value="trn" />
+        Temporary Reference Number (TRN)
+      </label>
+    </div>
+
+    <form
+      id="newRegistrationForm"
+      method="post"
+      action="{% url 'registration' %}"
+    >
+      {% csrf_token %}
+      <input type="hidden" name="registrationType" value="newRegistration" />
+      <div class="login__blockFormLabel">
+        <p>Iam a</p>
+        <span class="dot"></span>
+      </div>
+      <select class="selectMy dropdown-toggle" name="userType" required>
+        <option value="" disabled selected>Select</option>
+        <option value="taxpayer">Taxpayer</option>
+      </select>
+
+      <div class="login__blockFormLabel">
+        <p>State / UT</p>
+        <span class="dot"></span>
+      </div>
+      <select id="state" name="state_ut" class="selectMy state" required>
+        <option value="" disabled selected>Select</option>
+      </select>
+
+      <div class="login__blockFormLabel">
+        <p>District</p>
+        <span class="dot"></span>
+      </div>
+      <select
+        id="district"
+        name="district"
+        class="selectMy dropdown-toggle"
+        required
+      >
+        <option value="" disabled selected>Select State first</option>
+      </select>
+
+      <div class="login__blockFormLabel">
+        <p>Legal Name Of The Business</p>
+        <p style="font-size: 14px">(As mentioned in PAN)</p>
+        <span class="dot"></span>
+      </div>
+      <input
+        class="login__blockFormInput"
+        type="text"
+        name="legalBusinessName"
+        placeholder="Enter Legal Name of the Business"
+        required
+      />
+
+      <div class="login__blockFormLabel">
+        <p>Permanent Account Number</p>
+        <span class="dot"></span>
+      </div>
+      <input
+        class="login__blockFormInput"
+        type="text"
+        name="panNumber"
+        placeholder="Enter Permanent Account Number (PAN)"
+        required
+      />
+
+      <div class="login__blockFormLabel">
+        <p>Email Address</p>
+        <span class="dot"></span>
+      </div>
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          border: 1px solid #c0bfbf;
+          margin-bottom: 10px;
+        "
+      >
+        <div
+          style="
+            padding: 8px;
+            background: #f9f9f9;
+            border-right: 1px solid #e0e0e0;
+          "
+        >
+          📧
+        </div>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+          style="
+            border: none;
+            padding: 6px;
+            outline: none;
+            flex: 1;
+            font-size: 15px;
+            color: #555;
+            height: 36px;
+          "
+          required
+        />
+      </div>
+
+      <div style="margin: 10px 0; display: flex; align-items: center">
+        <span style="font-size: 18px">ℹ️</span>
+        <span style="font-size: 15px; margin-left: 5px"
+          >OTP will be sent to this Email Address</span
+        >
+      </div>
+
+      <div class="login__blockFormLabel">
+        <p>Mobile Number</p>
+        <span class="dot"></span>
+      </div>
+      <div
+        style="
+          display: flex;
+          align-items: center;
+          border: 1px solid #ccc;
+          height: 38px;
+        "
+      >
+        <span
+          style="
+            background: #eee;
+            padding: 0 12px;
+            display: flex;
+            align-items: center;
+            height: 100%;
+          "
+          >+91</span
+        >
+        <input
+          type="number"
+          value="0000000000"
+          disabled
+          style="
+            border: none;
+            outline: none;
+            padding: 0 10px;
+            height: 100%;
+            width: 100%;
+          "
+        />
+      </div>
+      <div style="margin: 10px 0; display: flex; align-items: center">
+        <span style="font-size: 18px">ℹ️</span>
+        <span style="font-size: 15px; margin-left: 5px">
+          Separate OTP will be sent to this mobile number</span
+        >
+      </div>
+
+      <div class="login__blockFormLabel">
+        <p>Type the characters you see in the image below</p>
+        <span class="dot"></span>
+      </div>
+      <input
+        type="text"
+        name="captcha"
+        placeholder="Enter characters shown below"
+        required
+        style="
+          padding: 8px;
+          width: 100%;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 14px;
+        "
+      />
+
+      <img
+        src=""
+        alt="CAPTCHA"
+        style="width: 150px; height: 60px; margin-top: 10px"
+      />
+
+      <button class="login__blockFormContentButton" type="submit">
+        PROCEED
+      </button>
+    </form>
+
+    <!-- TRN Form Section -->
+    <form id="trnForm" method="post" action="{% url 'trn_registration' %}">
+      {% csrf_token %}
+      <div class="login__blockFormLabel">
+        <p>Temporary Reference Number (TRN)</p>
+        <span class="dot"></span>
+      </div>
+
+      <input
+        class="login__blockFormInput"
+        type="text"
+        name="trn"
+        placeholder="Enter Temporary Reference Number (TRN)"
+        required
+      />
+
+      <div class="login__blockFormLabel">
+        <p>Type the characters you see in the image below</p>
+        <span class="dot"></span>
+      </div>
+
+      <input
+        class="login__blockFormInput"
+        type="text"
+        name="captcha_trn"
+        placeholder="Enter characters shown below"
+        required
+      />
+
+      <img
+        src=""
+        alt="CAPTCHA"
+        style="width: 150px; height: 60px; margin-top: 10px"
+      />
+
+      <button class="login__blockFormContentButton" type="submit">
+        PROCEED
+      </button>
+    </form>
+  </div>
+</div>
+{% endblock %}
