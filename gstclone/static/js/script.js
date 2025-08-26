@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const stateDropdown = document.getElementById("state");
       const districtDropdown = document.getElementById("district");
 
-      if (!stateDropdown || !districtDropdown) return;
+      
 
       Object.keys(data).forEach((state) => {
         let option = document.createElement("option");
