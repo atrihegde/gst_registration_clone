@@ -1,6 +1,7 @@
 from .models import Registration
 from django.shortcuts import get_object_or_404, render, redirect
 
+
 def home(request):
     return render(request, 'index.html')
 
@@ -52,3 +53,18 @@ def edit(request, pk):
             'edit_data' : edit_data
         }
     return render(request, 'index.html', context)
+
+
+
+from django.http import JsonResponse
+from .models import State, District
+
+def get_states_districts(request):
+    data = {}
+    states = State.objects.all()
+
+    for state in states:
+        districts = District.objects.filter(state=state).values_list("name", flat=True)
+        data[state.name] = list(districts)
+
+    return JsonResponse(data)

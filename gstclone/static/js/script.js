@@ -123,39 +123,36 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   setTimeout(initializeCaptchas, 100);
+})
 
+fetch("/api/states-districts/")
+  .then((response) => response.json())
+  .then((data) => {
+    const stateDropdown = document.getElementById("state");
+    const districtDropdown = document.getElementById("district");
 
-  // State-District Dropdown Logic 
+    // Populate states
+    Object.keys(data).forEach((state) => {
+      let option = document.createElement("option");
+      option.value = state;
+      option.textContent = state;
+      stateDropdown.appendChild(option);
+    });
 
-  fetch("/static/data/states_districts.json")
-    .then((response) => response.json())
-    .then((data) => {
-      const stateDropdown = document.getElementById("state");
-      const districtDropdown = document.getElementById("district");
+    // Populate districts on state change
+    stateDropdown.addEventListener("change", () => {
+      const selectedState = stateDropdown.value;
+      districtDropdown.innerHTML = '<option value="">-- Select District --</option>';
+      districtDropdown.disabled = !selectedState;
 
-      
-
-      Object.keys(data).forEach((state) => {
-        let option = document.createElement("option");
-        option.value = state;
-        option.textContent = state;
-        stateDropdown.appendChild(option);
-      });
-
-      stateDropdown.addEventListener("change", () => {
-        const selectedState = stateDropdown.value;
-        districtDropdown.innerHTML = '<option value="">-- Select District --</option>';
-        districtDropdown.disabled = !selectedState;
-
-        if (selectedState && data[selectedState]) {
-          data[selectedState].forEach((district) => {
-            let option = document.createElement("option");
-            option.value = district;
-            option.textContent = district;
-            districtDropdown.appendChild(option);
-          });
-        }
-      });
-    })
-    .catch((error) => console.error("Error loading states/districts:", error));
-});
+      if (selectedState && data[selectedState]) {
+        data[selectedState].forEach((district) => {
+          let option = document.createElement("option");
+          option.value = district;
+          option.textContent = district;
+          districtDropdown.appendChild(option);
+        });
+      }
+    });
+  })
+  .catch((error) => console.error("Error fetching states/districts:", error));

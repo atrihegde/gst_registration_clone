@@ -28,3 +28,19 @@ class TRNRegistration(models.Model):
     class Meta:
         verbose_name = "TRN Registration"
         verbose_name_plural = "TRN Registrations"
+
+from django.db import models
+
+class State(models.Model):
+    name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
+
+
+class District(models.Model):
+    state = models.ForeignKey(State, on_delete=models.CASCADE, related_name="districts")
+    name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
