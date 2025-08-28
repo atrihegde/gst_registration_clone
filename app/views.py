@@ -15,7 +15,7 @@ def registration_view(request):
             panNumber=request.POST.get('panNumber', '').strip(),
             email=request.POST.get('email'),
         )
-        return redirect('/')  # Redirect after saving
+        return redirect('data')  # Redirect after saving
     return render(request, 'index.html')
 
 def trn_registration_view(request):

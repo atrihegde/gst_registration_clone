@@ -1,4 +1,4 @@
-# registration/models.py
+
 from django.db import models
 
 class Registration(models.Model):
@@ -17,7 +17,7 @@ class Registration(models.Model):
         verbose_name = "Registration"
         verbose_name_plural = "Registrations"
 
-# Add a separate model for TRN registrations
+# separate model for TRN registrations
 class TRNRegistration(models.Model):
     trn = models.CharField(max_length=50, unique=True)
     created_at = models.DateTimeField(auto_now_add=True)
