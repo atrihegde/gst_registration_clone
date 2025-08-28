@@ -1,0 +1,6023 @@
+[
+  {
+    "model": "app.State",
+    "pk": 1,
+    "fields": {
+      "name": "Andhra Pradesh"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 1,
+    "fields": {
+      "name": "Anantapur",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 2,
+    "fields": {
+      "name": "Chittoor",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 3,
+    "fields": {
+      "name": "East Godavari",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 4,
+    "fields": {
+      "name": "Guntur",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 5,
+    "fields": {
+      "name": "Krishna",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 6,
+    "fields": {
+      "name": "Kurnool",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 7,
+    "fields": {
+      "name": "Nellore",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 8,
+    "fields": {
+      "name": "Prakasam",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 9,
+    "fields": {
+      "name": "Srikakulam",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 10,
+    "fields": {
+      "name": "Visakhapatnam",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 11,
+    "fields": {
+      "name": "Vizianagaram",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 12,
+    "fields": {
+      "name": "West Godavari",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 13,
+    "fields": {
+      "name": "YSR Kadapa",
+      "state": 1
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 2,
+    "fields": {
+      "name": "Arunachal Pradesh"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 14,
+    "fields": {
+      "name": "Tawang",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 15,
+    "fields": {
+      "name": "West Kameng",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 16,
+    "fields": {
+      "name": "East Kameng",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 17,
+    "fields": {
+      "name": "Papum Pare",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 18,
+    "fields": {
+      "name": "Kurung Kumey",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 19,
+    "fields": {
+      "name": "Kra Daadi",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 20,
+    "fields": {
+      "name": "Lower Subansiri",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 21,
+    "fields": {
+      "name": "Upper Subansiri",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 22,
+    "fields": {
+      "name": "West Siang",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 23,
+    "fields": {
+      "name": "East Siang",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 24,
+    "fields": {
+      "name": "Siang",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 25,
+    "fields": {
+      "name": "Upper Siang",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 26,
+    "fields": {
+      "name": "Lower Siang",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 27,
+    "fields": {
+      "name": "Lower Dibang Valley",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 28,
+    "fields": {
+      "name": "Dibang Valley",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 29,
+    "fields": {
+      "name": "Anjaw",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 30,
+    "fields": {
+      "name": "Lohit",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 31,
+    "fields": {
+      "name": "Namsai",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 32,
+    "fields": {
+      "name": "Changlang",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 33,
+    "fields": {
+      "name": "Tirap",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 34,
+    "fields": {
+      "name": "Longding",
+      "state": 2
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 3,
+    "fields": {
+      "name": "Assam"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 35,
+    "fields": {
+      "name": "Baksa",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 36,
+    "fields": {
+      "name": "Barpeta",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 37,
+    "fields": {
+      "name": "Biswanath",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 38,
+    "fields": {
+      "name": "Bongaigaon",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 39,
+    "fields": {
+      "name": "Cachar",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 40,
+    "fields": {
+      "name": "Charaideo",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 41,
+    "fields": {
+      "name": "Chirang",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 42,
+    "fields": {
+      "name": "Darrang",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 43,
+    "fields": {
+      "name": "Dhemaji",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 44,
+    "fields": {
+      "name": "Dhubri",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 45,
+    "fields": {
+      "name": "Dibrugarh",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 46,
+    "fields": {
+      "name": "Goalpara",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 47,
+    "fields": {
+      "name": "Golaghat",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 48,
+    "fields": {
+      "name": "Hailakandi",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 49,
+    "fields": {
+      "name": "Hojai",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 50,
+    "fields": {
+      "name": "Jorhat",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 51,
+    "fields": {
+      "name": "Kamrup Metropolitan",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 52,
+    "fields": {
+      "name": "Kamrup",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 53,
+    "fields": {
+      "name": "Karbi Anglong",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 54,
+    "fields": {
+      "name": "Karimganj",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 55,
+    "fields": {
+      "name": "Kokrajhar",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 56,
+    "fields": {
+      "name": "Lakhimpur",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 57,
+    "fields": {
+      "name": "Majuli",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 58,
+    "fields": {
+      "name": "Morigaon",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 59,
+    "fields": {
+      "name": "Nagaon",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 60,
+    "fields": {
+      "name": "Nalbari",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 61,
+    "fields": {
+      "name": "Dima Hasao",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 62,
+    "fields": {
+      "name": "Sivasagar",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 63,
+    "fields": {
+      "name": "Sonitpur",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 64,
+    "fields": {
+      "name": "South Salmara-Mankachar",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 65,
+    "fields": {
+      "name": "Tinsukia",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 66,
+    "fields": {
+      "name": "Udalguri",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 67,
+    "fields": {
+      "name": "West Karbi Anglong",
+      "state": 3
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 4,
+    "fields": {
+      "name": "Bihar"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 68,
+    "fields": {
+      "name": "Araria",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 69,
+    "fields": {
+      "name": "Arwal",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 70,
+    "fields": {
+      "name": "Aurangabad",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 71,
+    "fields": {
+      "name": "Banka",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 72,
+    "fields": {
+      "name": "Begusarai",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 73,
+    "fields": {
+      "name": "Bhagalpur",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 74,
+    "fields": {
+      "name": "Bhojpur",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 75,
+    "fields": {
+      "name": "Buxar",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 76,
+    "fields": {
+      "name": "Darbhanga",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 77,
+    "fields": {
+      "name": "East Champaran (Motihari)",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 78,
+    "fields": {
+      "name": "Gaya",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 79,
+    "fields": {
+      "name": "Gopalganj",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 80,
+    "fields": {
+      "name": "Jamui",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 81,
+    "fields": {
+      "name": "Jehanabad",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 82,
+    "fields": {
+      "name": "Kaimur (Bhabua)",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 83,
+    "fields": {
+      "name": "Katihar",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 84,
+    "fields": {
+      "name": "Khagaria",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 85,
+    "fields": {
+      "name": "Kishanganj",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 86,
+    "fields": {
+      "name": "Lakhisarai",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 87,
+    "fields": {
+      "name": "Madhepura",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 88,
+    "fields": {
+      "name": "Madhubani",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 89,
+    "fields": {
+      "name": "Munger (Monghyr)",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 90,
+    "fields": {
+      "name": "Muzaffarpur",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 91,
+    "fields": {
+      "name": "Nalanda",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 92,
+    "fields": {
+      "name": "Nawada",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 93,
+    "fields": {
+      "name": "Patna",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 94,
+    "fields": {
+      "name": "Purnia (Purnea)",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 95,
+    "fields": {
+      "name": "Rohtas",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 96,
+    "fields": {
+      "name": "Saharsa",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 97,
+    "fields": {
+      "name": "Samastipur",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 98,
+    "fields": {
+      "name": "Saran",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 99,
+    "fields": {
+      "name": "Sheikhpura",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 100,
+    "fields": {
+      "name": "Sheohar",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 101,
+    "fields": {
+      "name": "Sitamarhi",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 102,
+    "fields": {
+      "name": "Siwan",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 103,
+    "fields": {
+      "name": "Supaul",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 104,
+    "fields": {
+      "name": "Vaishali",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 105,
+    "fields": {
+      "name": "West Champaran",
+      "state": 4
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 5,
+    "fields": {
+      "name": "Chandigarh (UT)"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 106,
+    "fields": {
+      "name": "Chandigarh",
+      "state": 5
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 6,
+    "fields": {
+      "name": "Chhattisgarh"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 107,
+    "fields": {
+      "name": "Balod",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 108,
+    "fields": {
+      "name": "Baloda Bazar",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 109,
+    "fields": {
+      "name": "Balrampur",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 110,
+    "fields": {
+      "name": "Bastar",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 111,
+    "fields": {
+      "name": "Bemetara",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 112,
+    "fields": {
+      "name": "Bijapur",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 113,
+    "fields": {
+      "name": "Bilaspur",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 114,
+    "fields": {
+      "name": "Dantewada (South Bastar)",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 115,
+    "fields": {
+      "name": "Dhamtari",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 116,
+    "fields": {
+      "name": "Durg",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 117,
+    "fields": {
+      "name": "Gariyaband",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 118,
+    "fields": {
+      "name": "Janjgir-Champa",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 119,
+    "fields": {
+      "name": "Jashpur",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 120,
+    "fields": {
+      "name": "Kabirdham (Kawardha)",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 121,
+    "fields": {
+      "name": "Kanker (North Bastar)",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 122,
+    "fields": {
+      "name": "Kondagaon",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 123,
+    "fields": {
+      "name": "Korba",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 124,
+    "fields": {
+      "name": "Korea (Koriya)",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 125,
+    "fields": {
+      "name": "Mahasamund",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 126,
+    "fields": {
+      "name": "Mungeli",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 127,
+    "fields": {
+      "name": "Narayanpur",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 128,
+    "fields": {
+      "name": "Raigarh",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 129,
+    "fields": {
+      "name": "Raipur",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 130,
+    "fields": {
+      "name": "Rajnandgaon",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 131,
+    "fields": {
+      "name": "Sukma",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 132,
+    "fields": {
+      "name": "Surajpur  ",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 133,
+    "fields": {
+      "name": "Surguja",
+      "state": 6
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 7,
+    "fields": {
+      "name": "Dadra and Nagar Haveli (UT)"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 134,
+    "fields": {
+      "name": "Dadra & Nagar Haveli",
+      "state": 7
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 8,
+    "fields": {
+      "name": "Daman and Diu (UT)"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 135,
+    "fields": {
+      "name": "Daman",
+      "state": 8
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 136,
+    "fields": {
+      "name": "Diu",
+      "state": 8
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 9,
+    "fields": {
+      "name": "Delhi (NCT)"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 137,
+    "fields": {
+      "name": "Central Delhi",
+      "state": 9
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 138,
+    "fields": {
+      "name": "East Delhi",
+      "state": 9
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 139,
+    "fields": {
+      "name": "New Delhi",
+      "state": 9
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 140,
+    "fields": {
+      "name": "North Delhi",
+      "state": 9
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 141,
+    "fields": {
+      "name": "North East  Delhi",
+      "state": 9
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 142,
+    "fields": {
+      "name": "North West  Delhi",
+      "state": 9
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 143,
+    "fields": {
+      "name": "Shahdara",
+      "state": 9
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 144,
+    "fields": {
+      "name": "South Delhi",
+      "state": 9
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 145,
+    "fields": {
+      "name": "South East Delhi",
+      "state": 9
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 146,
+    "fields": {
+      "name": "South West  Delhi",
+      "state": 9
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 147,
+    "fields": {
+      "name": "West Delhi",
+      "state": 9
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 10,
+    "fields": {
+      "name": "Goa"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 148,
+    "fields": {
+      "name": "North Goa",
+      "state": 10
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 149,
+    "fields": {
+      "name": "South Goa",
+      "state": 10
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 11,
+    "fields": {
+      "name": "Gujarat"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 150,
+    "fields": {
+      "name": "Ahmedabad",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 151,
+    "fields": {
+      "name": "Amreli",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 152,
+    "fields": {
+      "name": "Anand",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 153,
+    "fields": {
+      "name": "Aravalli",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 154,
+    "fields": {
+      "name": "Banaskantha (Palanpur)",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 155,
+    "fields": {
+      "name": "Bharuch",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 156,
+    "fields": {
+      "name": "Bhavnagar",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 157,
+    "fields": {
+      "name": "Botad",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 158,
+    "fields": {
+      "name": "Chhota Udepur",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 159,
+    "fields": {
+      "name": "Dahod",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 160,
+    "fields": {
+      "name": "Dangs (Ahwa)",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 161,
+    "fields": {
+      "name": "Devbhoomi Dwarka",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 162,
+    "fields": {
+      "name": "Gandhinagar",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 163,
+    "fields": {
+      "name": "Gir Somnath",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 164,
+    "fields": {
+      "name": "Jamnagar",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 165,
+    "fields": {
+      "name": "Junagadh",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 166,
+    "fields": {
+      "name": "Kachchh",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 167,
+    "fields": {
+      "name": "Kheda (Nadiad)",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 168,
+    "fields": {
+      "name": "Mahisagar",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 169,
+    "fields": {
+      "name": "Mehsana",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 170,
+    "fields": {
+      "name": "Morbi",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 171,
+    "fields": {
+      "name": "Narmada (Rajpipla)",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 172,
+    "fields": {
+      "name": "Navsari",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 173,
+    "fields": {
+      "name": "Panchmahal (Godhra)",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 174,
+    "fields": {
+      "name": "Patan",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 175,
+    "fields": {
+      "name": "Porbandar",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 176,
+    "fields": {
+      "name": "Rajkot",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 177,
+    "fields": {
+      "name": "Sabarkantha (Himmatnagar)",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 178,
+    "fields": {
+      "name": "Surat",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 179,
+    "fields": {
+      "name": "Surendranagar",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 180,
+    "fields": {
+      "name": "Tapi (Vyara)",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 181,
+    "fields": {
+      "name": "Vadodara",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 182,
+    "fields": {
+      "name": "Valsad",
+      "state": 11
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 12,
+    "fields": {
+      "name": "Haryana"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 183,
+    "fields": {
+      "name": "Ambala",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 184,
+    "fields": {
+      "name": "Bhiwani",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 185,
+    "fields": {
+      "name": "Charkhi Dadri",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 186,
+    "fields": {
+      "name": "Faridabad",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 187,
+    "fields": {
+      "name": "Fatehabad",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 188,
+    "fields": {
+      "name": "Gurgaon",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 189,
+    "fields": {
+      "name": "Hisar",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 190,
+    "fields": {
+      "name": "Jhajjar",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 191,
+    "fields": {
+      "name": "Jind",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 192,
+    "fields": {
+      "name": "Kaithal",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 193,
+    "fields": {
+      "name": "Karnal",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 194,
+    "fields": {
+      "name": "Kurukshetra",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 195,
+    "fields": {
+      "name": "Mahendragarh",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 196,
+    "fields": {
+      "name": "Mewat",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 197,
+    "fields": {
+      "name": "Palwal",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 198,
+    "fields": {
+      "name": "Panchkula",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 199,
+    "fields": {
+      "name": "Panipat",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 200,
+    "fields": {
+      "name": "Rewari",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 201,
+    "fields": {
+      "name": "Rohtak",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 202,
+    "fields": {
+      "name": "Sirsa",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 203,
+    "fields": {
+      "name": "Sonipat",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 204,
+    "fields": {
+      "name": "Yamunanagar",
+      "state": 12
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 13,
+    "fields": {
+      "name": "Himachal Pradesh"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 205,
+    "fields": {
+      "name": "Bilaspur",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 206,
+    "fields": {
+      "name": "Chamba",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 207,
+    "fields": {
+      "name": "Hamirpur",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 208,
+    "fields": {
+      "name": "Kangra",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 209,
+    "fields": {
+      "name": "Kinnaur",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 210,
+    "fields": {
+      "name": "Kullu",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 211,
+    "fields": {
+      "name": "Lahaul &amp; Spiti",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 212,
+    "fields": {
+      "name": "Mandi",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 213,
+    "fields": {
+      "name": "Shimla",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 214,
+    "fields": {
+      "name": "Sirmaur (Sirmour)",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 215,
+    "fields": {
+      "name": "Solan",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 216,
+    "fields": {
+      "name": "Una",
+      "state": 13
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 14,
+    "fields": {
+      "name": "Jammu and Kashmir"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 217,
+    "fields": {
+      "name": "Anantnag",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 218,
+    "fields": {
+      "name": "Bandipore",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 219,
+    "fields": {
+      "name": "Baramulla",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 220,
+    "fields": {
+      "name": "Budgam",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 221,
+    "fields": {
+      "name": "Doda",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 222,
+    "fields": {
+      "name": "Ganderbal",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 223,
+    "fields": {
+      "name": "Jammu",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 224,
+    "fields": {
+      "name": "Kargil",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 225,
+    "fields": {
+      "name": "Kathua",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 226,
+    "fields": {
+      "name": "Kishtwar",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 227,
+    "fields": {
+      "name": "Kulgam",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 228,
+    "fields": {
+      "name": "Kupwara",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 229,
+    "fields": {
+      "name": "Leh",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 230,
+    "fields": {
+      "name": "Poonch",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 231,
+    "fields": {
+      "name": "Pulwama",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 232,
+    "fields": {
+      "name": "Rajouri",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 233,
+    "fields": {
+      "name": "Ramban",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 234,
+    "fields": {
+      "name": "Reasi",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 235,
+    "fields": {
+      "name": "Samba",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 236,
+    "fields": {
+      "name": "Shopian",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 237,
+    "fields": {
+      "name": "Srinagar",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 238,
+    "fields": {
+      "name": "Udhampur",
+      "state": 14
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 15,
+    "fields": {
+      "name": "Jharkhand"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 239,
+    "fields": {
+      "name": "Bokaro",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 240,
+    "fields": {
+      "name": "Chatra",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 241,
+    "fields": {
+      "name": "Deoghar",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 242,
+    "fields": {
+      "name": "Dhanbad",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 243,
+    "fields": {
+      "name": "Dumka",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 244,
+    "fields": {
+      "name": "East Singhbhum",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 245,
+    "fields": {
+      "name": "Garhwa",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 246,
+    "fields": {
+      "name": "Giridih",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 247,
+    "fields": {
+      "name": "Godda",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 248,
+    "fields": {
+      "name": "Gumla",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 249,
+    "fields": {
+      "name": "Hazaribag",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 250,
+    "fields": {
+      "name": "Jamtara",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 251,
+    "fields": {
+      "name": "Khunti",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 252,
+    "fields": {
+      "name": "Koderma",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 253,
+    "fields": {
+      "name": "Latehar",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 254,
+    "fields": {
+      "name": "Lohardaga",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 255,
+    "fields": {
+      "name": "Pakur",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 256,
+    "fields": {
+      "name": "Palamu",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 257,
+    "fields": {
+      "name": "Ramgarh",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 258,
+    "fields": {
+      "name": "Ranchi",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 259,
+    "fields": {
+      "name": "Sahibganj",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 260,
+    "fields": {
+      "name": "Seraikela-Kharsawan",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 261,
+    "fields": {
+      "name": "Simdega",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 262,
+    "fields": {
+      "name": "West Singhbhum",
+      "state": 15
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 16,
+    "fields": {
+      "name": "Karnataka"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 263,
+    "fields": {
+      "name": "Bagalkot",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 264,
+    "fields": {
+      "name": "Ballari (Bellary)",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 265,
+    "fields": {
+      "name": "Belagavi (Belgaum)",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 266,
+    "fields": {
+      "name": "Bengaluru (Bangalore) Rural",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 267,
+    "fields": {
+      "name": "Bengaluru (Bangalore) Urban",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 268,
+    "fields": {
+      "name": "Bidar",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 269,
+    "fields": {
+      "name": "Chamarajanagar",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 270,
+    "fields": {
+      "name": "Chikballapur",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 271,
+    "fields": {
+      "name": "Chikkamagaluru (Chikmagalur)",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 272,
+    "fields": {
+      "name": "Chitradurga",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 273,
+    "fields": {
+      "name": "Dakshina Kannada",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 274,
+    "fields": {
+      "name": "Davangere",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 275,
+    "fields": {
+      "name": "Dharwad",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 276,
+    "fields": {
+      "name": "Gadag",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 277,
+    "fields": {
+      "name": "Hassan",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 278,
+    "fields": {
+      "name": "Haveri",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 279,
+    "fields": {
+      "name": "Kalaburagi (Gulbarga)",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 280,
+    "fields": {
+      "name": "Kodagu",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 281,
+    "fields": {
+      "name": "Kolar",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 282,
+    "fields": {
+      "name": "Koppal",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 283,
+    "fields": {
+      "name": "Mandya",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 284,
+    "fields": {
+      "name": "Mysuru (Mysore)",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 285,
+    "fields": {
+      "name": "Raichur",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 286,
+    "fields": {
+      "name": "Ramanagara",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 287,
+    "fields": {
+      "name": "Shivamogga (Shimoga)",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 288,
+    "fields": {
+      "name": "Tumakuru (Tumkur)",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 289,
+    "fields": {
+      "name": "Udupi",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 290,
+    "fields": {
+      "name": "Uttara Kannada (Karwar)",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 291,
+    "fields": {
+      "name": "Vijayapura (Bijapur)",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 292,
+    "fields": {
+      "name": "Yadgir",
+      "state": 16
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 17,
+    "fields": {
+      "name": "Kerala"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 293,
+    "fields": {
+      "name": "Alappuzha",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 294,
+    "fields": {
+      "name": "Ernakulam",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 295,
+    "fields": {
+      "name": "Idukki",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 296,
+    "fields": {
+      "name": "Kannur",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 297,
+    "fields": {
+      "name": "Kasaragod",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 298,
+    "fields": {
+      "name": "Kollam",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 299,
+    "fields": {
+      "name": "Kottayam",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 300,
+    "fields": {
+      "name": "Kozhikode",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 301,
+    "fields": {
+      "name": "Malappuram",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 302,
+    "fields": {
+      "name": "Palakkad",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 303,
+    "fields": {
+      "name": "Pathanamthitta",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 304,
+    "fields": {
+      "name": "Thiruvananthapuram",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 305,
+    "fields": {
+      "name": "Thrissur",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 306,
+    "fields": {
+      "name": "Wayanad",
+      "state": 17
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 18,
+    "fields": {
+      "name": "Lakshadweep (UT)"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 307,
+    "fields": {
+      "name": "Agatti",
+      "state": 18
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 308,
+    "fields": {
+      "name": "Amini",
+      "state": 18
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 309,
+    "fields": {
+      "name": "Androth",
+      "state": 18
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 310,
+    "fields": {
+      "name": "Bithra",
+      "state": 18
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 311,
+    "fields": {
+      "name": "Chethlath",
+      "state": 18
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 312,
+    "fields": {
+      "name": "Kavaratti",
+      "state": 18
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 313,
+    "fields": {
+      "name": "Kadmath",
+      "state": 18
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 314,
+    "fields": {
+      "name": "Kalpeni",
+      "state": 18
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 315,
+    "fields": {
+      "name": "Kilthan",
+      "state": 18
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 316,
+    "fields": {
+      "name": "Minicoy",
+      "state": 18
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 19,
+    "fields": {
+      "name": "Madhya Pradesh"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 317,
+    "fields": {
+      "name": "Agar Malwa",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 318,
+    "fields": {
+      "name": "Alirajpur",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 319,
+    "fields": {
+      "name": "Anuppur",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 320,
+    "fields": {
+      "name": "Ashoknagar",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 321,
+    "fields": {
+      "name": "Balaghat",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 322,
+    "fields": {
+      "name": "Barwani",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 323,
+    "fields": {
+      "name": "Betul",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 324,
+    "fields": {
+      "name": "Bhind",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 325,
+    "fields": {
+      "name": "Bhopal",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 326,
+    "fields": {
+      "name": "Burhanpur",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 327,
+    "fields": {
+      "name": "Chhatarpur",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 328,
+    "fields": {
+      "name": "Chhindwara",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 329,
+    "fields": {
+      "name": "Damoh",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 330,
+    "fields": {
+      "name": "Datia",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 331,
+    "fields": {
+      "name": "Dewas",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 332,
+    "fields": {
+      "name": "Dhar",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 333,
+    "fields": {
+      "name": "Dindori",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 334,
+    "fields": {
+      "name": "Guna",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 335,
+    "fields": {
+      "name": "Gwalior",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 336,
+    "fields": {
+      "name": "Harda",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 337,
+    "fields": {
+      "name": "Hoshangabad",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 338,
+    "fields": {
+      "name": "Indore",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 339,
+    "fields": {
+      "name": "Jabalpur",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 340,
+    "fields": {
+      "name": "Jhabua",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 341,
+    "fields": {
+      "name": "Katni",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 342,
+    "fields": {
+      "name": "Khandwa",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 343,
+    "fields": {
+      "name": "Khargone",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 344,
+    "fields": {
+      "name": "Mandla",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 345,
+    "fields": {
+      "name": "Mandsaur",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 346,
+    "fields": {
+      "name": "Morena",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 347,
+    "fields": {
+      "name": "Narsinghpur",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 348,
+    "fields": {
+      "name": "Neemuch",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 349,
+    "fields": {
+      "name": "Panna",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 350,
+    "fields": {
+      "name": "Raisen",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 351,
+    "fields": {
+      "name": "Rajgarh",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 352,
+    "fields": {
+      "name": "Ratlam",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 353,
+    "fields": {
+      "name": "Rewa",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 354,
+    "fields": {
+      "name": "Sagar",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 355,
+    "fields": {
+      "name": "Satna",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 356,
+    "fields": {
+      "name": "Sehore",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 357,
+    "fields": {
+      "name": "Seoni",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 358,
+    "fields": {
+      "name": "Shahdol",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 359,
+    "fields": {
+      "name": "Shajapur",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 360,
+    "fields": {
+      "name": "Sheopur",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 361,
+    "fields": {
+      "name": "Shivpuri",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 362,
+    "fields": {
+      "name": "Sidhi",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 363,
+    "fields": {
+      "name": "Singrauli",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 364,
+    "fields": {
+      "name": "Tikamgarh",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 365,
+    "fields": {
+      "name": "Ujjain",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 366,
+    "fields": {
+      "name": "Umaria",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 367,
+    "fields": {
+      "name": "Vidisha",
+      "state": 19
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 20,
+    "fields": {
+      "name": "Maharashtra"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 368,
+    "fields": {
+      "name": "Ahmednagar",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 369,
+    "fields": {
+      "name": "Akola",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 370,
+    "fields": {
+      "name": "Amravati",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 371,
+    "fields": {
+      "name": "Aurangabad",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 372,
+    "fields": {
+      "name": "Beed",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 373,
+    "fields": {
+      "name": "Bhandara",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 374,
+    "fields": {
+      "name": "Buldhana",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 375,
+    "fields": {
+      "name": "Chandrapur",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 376,
+    "fields": {
+      "name": "Dhule",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 377,
+    "fields": {
+      "name": "Gadchiroli",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 378,
+    "fields": {
+      "name": "Gondia",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 379,
+    "fields": {
+      "name": "Hingoli",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 380,
+    "fields": {
+      "name": "Jalgaon",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 381,
+    "fields": {
+      "name": "Jalna",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 382,
+    "fields": {
+      "name": "Kolhapur",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 383,
+    "fields": {
+      "name": "Latur",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 384,
+    "fields": {
+      "name": "Mumbai City",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 385,
+    "fields": {
+      "name": "Mumbai Suburban",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 386,
+    "fields": {
+      "name": "Nagpur",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 387,
+    "fields": {
+      "name": "Nanded",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 388,
+    "fields": {
+      "name": "Nandurbar",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 389,
+    "fields": {
+      "name": "Nashik",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 390,
+    "fields": {
+      "name": "Osmanabad",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 391,
+    "fields": {
+      "name": "Palghar",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 392,
+    "fields": {
+      "name": "Parbhani",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 393,
+    "fields": {
+      "name": "Pune",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 394,
+    "fields": {
+      "name": "Raigad",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 395,
+    "fields": {
+      "name": "Ratnagiri",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 396,
+    "fields": {
+      "name": "Sangli",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 397,
+    "fields": {
+      "name": "Satara",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 398,
+    "fields": {
+      "name": "Sindhudurg",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 399,
+    "fields": {
+      "name": "Solapur",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 400,
+    "fields": {
+      "name": "Thane",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 401,
+    "fields": {
+      "name": "Wardha",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 402,
+    "fields": {
+      "name": "Washim",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 403,
+    "fields": {
+      "name": "Yavatmal",
+      "state": 20
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 21,
+    "fields": {
+      "name": "Manipur"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 404,
+    "fields": {
+      "name": "Bishnupur",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 405,
+    "fields": {
+      "name": "Chandel",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 406,
+    "fields": {
+      "name": "Churachandpur",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 407,
+    "fields": {
+      "name": "Imphal East",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 408,
+    "fields": {
+      "name": "Imphal West",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 409,
+    "fields": {
+      "name": "Jiribam",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 410,
+    "fields": {
+      "name": "Kakching",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 411,
+    "fields": {
+      "name": "Kamjong",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 412,
+    "fields": {
+      "name": "Kangpokpi",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 413,
+    "fields": {
+      "name": "Noney",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 414,
+    "fields": {
+      "name": "Pherzawl",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 415,
+    "fields": {
+      "name": "Senapati",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 416,
+    "fields": {
+      "name": "Tamenglong",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 417,
+    "fields": {
+      "name": "Tengnoupal",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 418,
+    "fields": {
+      "name": "Thoubal",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 419,
+    "fields": {
+      "name": "Ukhrul",
+      "state": 21
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 22,
+    "fields": {
+      "name": "Meghalaya"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 420,
+    "fields": {
+      "name": "East Garo Hills",
+      "state": 22
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 421,
+    "fields": {
+      "name": "East Jaintia Hills",
+      "state": 22
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 422,
+    "fields": {
+      "name": "East Khasi Hills",
+      "state": 22
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 423,
+    "fields": {
+      "name": "North Garo Hills",
+      "state": 22
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 424,
+    "fields": {
+      "name": "Ri Bhoi",
+      "state": 22
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 425,
+    "fields": {
+      "name": "South Garo Hills",
+      "state": 22
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 426,
+    "fields": {
+      "name": "South West Garo Hills ",
+      "state": 22
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 427,
+    "fields": {
+      "name": "South West Khasi Hills",
+      "state": 22
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 428,
+    "fields": {
+      "name": "West Garo Hills",
+      "state": 22
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 429,
+    "fields": {
+      "name": "West Jaintia Hills",
+      "state": 22
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 430,
+    "fields": {
+      "name": "West Khasi Hills",
+      "state": 22
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 23,
+    "fields": {
+      "name": "Mizoram"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 431,
+    "fields": {
+      "name": "Aizawl",
+      "state": 23
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 432,
+    "fields": {
+      "name": "Champhai",
+      "state": 23
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 433,
+    "fields": {
+      "name": "Kolasib",
+      "state": 23
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 434,
+    "fields": {
+      "name": "Lawngtlai",
+      "state": 23
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 435,
+    "fields": {
+      "name": "Lunglei",
+      "state": 23
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 436,
+    "fields": {
+      "name": "Mamit",
+      "state": 23
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 437,
+    "fields": {
+      "name": "Saiha",
+      "state": 23
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 438,
+    "fields": {
+      "name": "Serchhip",
+      "state": 23
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 24,
+    "fields": {
+      "name": "Nagaland"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 439,
+    "fields": {
+      "name": "Dimapur",
+      "state": 24
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 440,
+    "fields": {
+      "name": "Kiphire",
+      "state": 24
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 441,
+    "fields": {
+      "name": "Kohima",
+      "state": 24
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 442,
+    "fields": {
+      "name": "Longleng",
+      "state": 24
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 443,
+    "fields": {
+      "name": "Mokokchung",
+      "state": 24
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 444,
+    "fields": {
+      "name": "Mon",
+      "state": 24
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 445,
+    "fields": {
+      "name": "Peren",
+      "state": 24
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 446,
+    "fields": {
+      "name": "Phek",
+      "state": 24
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 447,
+    "fields": {
+      "name": "Tuensang",
+      "state": 24
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 448,
+    "fields": {
+      "name": "Wokha",
+      "state": 24
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 449,
+    "fields": {
+      "name": "Zunheboto",
+      "state": 24
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 25,
+    "fields": {
+      "name": "Odisha"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 450,
+    "fields": {
+      "name": "Angul",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 451,
+    "fields": {
+      "name": "Balangir",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 452,
+    "fields": {
+      "name": "Balasore",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 453,
+    "fields": {
+      "name": "Bargarh",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 454,
+    "fields": {
+      "name": "Bhadrak",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 455,
+    "fields": {
+      "name": "Boudh",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 456,
+    "fields": {
+      "name": "Cuttack",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 457,
+    "fields": {
+      "name": "Deogarh",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 458,
+    "fields": {
+      "name": "Dhenkanal",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 459,
+    "fields": {
+      "name": "Gajapati",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 460,
+    "fields": {
+      "name": "Ganjam",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 461,
+    "fields": {
+      "name": "Jagatsinghapur",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 462,
+    "fields": {
+      "name": "Jajpur",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 463,
+    "fields": {
+      "name": "Jharsuguda",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 464,
+    "fields": {
+      "name": "Kalahandi",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 465,
+    "fields": {
+      "name": "Kandhamal",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 466,
+    "fields": {
+      "name": "Kendrapara",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 467,
+    "fields": {
+      "name": "Kendujhar (Keonjhar)",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 468,
+    "fields": {
+      "name": "Khordha",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 469,
+    "fields": {
+      "name": "Koraput",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 470,
+    "fields": {
+      "name": "Malkangiri",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 471,
+    "fields": {
+      "name": "Mayurbhanj",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 472,
+    "fields": {
+      "name": "Nabarangpur",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 473,
+    "fields": {
+      "name": "Nayagarh",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 474,
+    "fields": {
+      "name": "Nuapada",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 475,
+    "fields": {
+      "name": "Puri",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 476,
+    "fields": {
+      "name": "Rayagada",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 477,
+    "fields": {
+      "name": "Sambalpur",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 478,
+    "fields": {
+      "name": "Sonepur",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 479,
+    "fields": {
+      "name": "Sundargarh",
+      "state": 25
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 26,
+    "fields": {
+      "name": "Puducherry (UT)"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 480,
+    "fields": {
+      "name": "Karaikal",
+      "state": 26
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 481,
+    "fields": {
+      "name": "Mahe",
+      "state": 26
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 482,
+    "fields": {
+      "name": "Pondicherry",
+      "state": 26
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 483,
+    "fields": {
+      "name": "Yanam",
+      "state": 26
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 27,
+    "fields": {
+      "name": "Punjab"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 484,
+    "fields": {
+      "name": "Amritsar",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 485,
+    "fields": {
+      "name": "Barnala",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 486,
+    "fields": {
+      "name": "Bathinda",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 487,
+    "fields": {
+      "name": "Faridkot",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 488,
+    "fields": {
+      "name": "Fatehgarh Sahib",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 489,
+    "fields": {
+      "name": "Fazilka",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 490,
+    "fields": {
+      "name": "Ferozepur",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 491,
+    "fields": {
+      "name": "Gurdaspur",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 492,
+    "fields": {
+      "name": "Hoshiarpur",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 493,
+    "fields": {
+      "name": "Jalandhar",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 494,
+    "fields": {
+      "name": "Kapurthala",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 495,
+    "fields": {
+      "name": "Ludhiana",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 496,
+    "fields": {
+      "name": "Mansa",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 497,
+    "fields": {
+      "name": "Moga",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 498,
+    "fields": {
+      "name": "Muktsar",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 499,
+    "fields": {
+      "name": "Nawanshahr (Shahid Bhagat Singh Nagar)",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 500,
+    "fields": {
+      "name": "Pathankot",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 501,
+    "fields": {
+      "name": "Patiala",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 502,
+    "fields": {
+      "name": "Rupnagar",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 503,
+    "fields": {
+      "name": "Sahibzada Ajit Singh Nagar (Mohali)",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 504,
+    "fields": {
+      "name": "Sangrur",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 505,
+    "fields": {
+      "name": "Tarn Taran",
+      "state": 27
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 28,
+    "fields": {
+      "name": "Rajasthan"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 506,
+    "fields": {
+      "name": "Ajmer",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 507,
+    "fields": {
+      "name": "Alwar",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 508,
+    "fields": {
+      "name": "Banswara",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 509,
+    "fields": {
+      "name": "Baran",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 510,
+    "fields": {
+      "name": "Barmer",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 511,
+    "fields": {
+      "name": "Bharatpur",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 512,
+    "fields": {
+      "name": "Bhilwara",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 513,
+    "fields": {
+      "name": "Bikaner",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 514,
+    "fields": {
+      "name": "Bundi",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 515,
+    "fields": {
+      "name": "Chittorgarh",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 516,
+    "fields": {
+      "name": "Churu",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 517,
+    "fields": {
+      "name": "Dausa",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 518,
+    "fields": {
+      "name": "Dholpur",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 519,
+    "fields": {
+      "name": "Dungarpur",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 520,
+    "fields": {
+      "name": "Hanumangarh",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 521,
+    "fields": {
+      "name": "Jaipur",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 522,
+    "fields": {
+      "name": "Jaisalmer",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 523,
+    "fields": {
+      "name": "Jalore",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 524,
+    "fields": {
+      "name": "Jhalawar",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 525,
+    "fields": {
+      "name": "Jhunjhunu",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 526,
+    "fields": {
+      "name": "Jodhpur",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 527,
+    "fields": {
+      "name": "Karauli",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 528,
+    "fields": {
+      "name": "Kota",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 529,
+    "fields": {
+      "name": "Nagaur",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 530,
+    "fields": {
+      "name": "Pali",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 531,
+    "fields": {
+      "name": "Pratapgarh",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 532,
+    "fields": {
+      "name": "Rajsamand",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 533,
+    "fields": {
+      "name": "Sawai Madhopur",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 534,
+    "fields": {
+      "name": "Sikar",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 535,
+    "fields": {
+      "name": "Sirohi",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 536,
+    "fields": {
+      "name": "Sri Ganganagar",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 537,
+    "fields": {
+      "name": "Tonk",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 538,
+    "fields": {
+      "name": "Udaipur",
+      "state": 28
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 29,
+    "fields": {
+      "name": "Sikkim"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 539,
+    "fields": {
+      "name": "East Sikkim",
+      "state": 29
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 540,
+    "fields": {
+      "name": "North Sikkim",
+      "state": 29
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 541,
+    "fields": {
+      "name": "South Sikkim",
+      "state": 29
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 542,
+    "fields": {
+      "name": "West Sikkim",
+      "state": 29
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 30,
+    "fields": {
+      "name": "Tamil Nadu"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 543,
+    "fields": {
+      "name": "Ariyalur",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 544,
+    "fields": {
+      "name": "Chennai",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 545,
+    "fields": {
+      "name": "Coimbatore",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 546,
+    "fields": {
+      "name": "Cuddalore",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 547,
+    "fields": {
+      "name": "Dharmapuri",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 548,
+    "fields": {
+      "name": "Dindigul",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 549,
+    "fields": {
+      "name": "Erode",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 550,
+    "fields": {
+      "name": "Kanchipuram",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 551,
+    "fields": {
+      "name": "Kanyakumari",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 552,
+    "fields": {
+      "name": "Karur",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 553,
+    "fields": {
+      "name": "Krishnagiri",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 554,
+    "fields": {
+      "name": "Madurai",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 555,
+    "fields": {
+      "name": "Nagapattinam",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 556,
+    "fields": {
+      "name": "Namakkal",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 557,
+    "fields": {
+      "name": "Nilgiris",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 558,
+    "fields": {
+      "name": "Perambalur",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 559,
+    "fields": {
+      "name": "Pudukkottai",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 560,
+    "fields": {
+      "name": "Ramanathapuram",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 561,
+    "fields": {
+      "name": "Salem",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 562,
+    "fields": {
+      "name": "Sivaganga",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 563,
+    "fields": {
+      "name": "Thanjavur",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 564,
+    "fields": {
+      "name": "Theni",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 565,
+    "fields": {
+      "name": "Thoothukudi (Tuticorin)",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 566,
+    "fields": {
+      "name": "Tiruchirappalli",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 567,
+    "fields": {
+      "name": "Tirunelveli",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 568,
+    "fields": {
+      "name": "Tiruppur",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 569,
+    "fields": {
+      "name": "Tiruvallur",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 570,
+    "fields": {
+      "name": "Tiruvannamalai",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 571,
+    "fields": {
+      "name": "Tiruvarur",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 572,
+    "fields": {
+      "name": "Vellore",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 573,
+    "fields": {
+      "name": "Viluppuram",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 574,
+    "fields": {
+      "name": "Virudhunagar",
+      "state": 30
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 31,
+    "fields": {
+      "name": "Telangana"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 575,
+    "fields": {
+      "name": "Adilabad",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 576,
+    "fields": {
+      "name": "Bhadradri Kothagudem",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 577,
+    "fields": {
+      "name": "Hyderabad",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 578,
+    "fields": {
+      "name": "Jagtial",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 579,
+    "fields": {
+      "name": "Jangaon",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 580,
+    "fields": {
+      "name": "Jayashankar Bhoopalpally",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 581,
+    "fields": {
+      "name": "Jogulamba Gadwal",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 582,
+    "fields": {
+      "name": "Kamareddy",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 583,
+    "fields": {
+      "name": "Karimnagar",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 584,
+    "fields": {
+      "name": "Khammam",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 585,
+    "fields": {
+      "name": "Komaram Bheem Asifabad",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 586,
+    "fields": {
+      "name": "Mahabubabad",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 587,
+    "fields": {
+      "name": "Mahabubnagar",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 588,
+    "fields": {
+      "name": "Mancherial",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 589,
+    "fields": {
+      "name": "Medak",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 590,
+    "fields": {
+      "name": "Medchal",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 591,
+    "fields": {
+      "name": "Nagarkurnool",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 592,
+    "fields": {
+      "name": "Nalgonda",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 593,
+    "fields": {
+      "name": "Nirmal",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 594,
+    "fields": {
+      "name": "Nizamabad",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 595,
+    "fields": {
+      "name": "Peddapalli",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 596,
+    "fields": {
+      "name": "Rajanna Sircilla",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 597,
+    "fields": {
+      "name": "Rangareddy",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 598,
+    "fields": {
+      "name": "Sangareddy",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 599,
+    "fields": {
+      "name": "Siddipet",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 600,
+    "fields": {
+      "name": "Suryapet",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 601,
+    "fields": {
+      "name": "Vikarabad",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 602,
+    "fields": {
+      "name": "Wanaparthy",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 603,
+    "fields": {
+      "name": "Warangal (Rural)",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 604,
+    "fields": {
+      "name": "Warangal (Urban)",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 605,
+    "fields": {
+      "name": "Yadadri Bhuvanagiri",
+      "state": 31
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 32,
+    "fields": {
+      "name": "Tripura"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 606,
+    "fields": {
+      "name": "Dhalai",
+      "state": 32
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 607,
+    "fields": {
+      "name": "Gomati",
+      "state": 32
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 608,
+    "fields": {
+      "name": "Khowai",
+      "state": 32
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 609,
+    "fields": {
+      "name": "North Tripura",
+      "state": 32
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 610,
+    "fields": {
+      "name": "Sepahijala",
+      "state": 32
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 611,
+    "fields": {
+      "name": "South Tripura",
+      "state": 32
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 612,
+    "fields": {
+      "name": "Unakoti",
+      "state": 32
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 613,
+    "fields": {
+      "name": "West Tripura",
+      "state": 32
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 33,
+    "fields": {
+      "name": "Uttarakhand"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 614,
+    "fields": {
+      "name": "Almora",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 615,
+    "fields": {
+      "name": "Bageshwar",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 616,
+    "fields": {
+      "name": "Chamoli",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 617,
+    "fields": {
+      "name": "Champawat",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 618,
+    "fields": {
+      "name": "Dehradun",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 619,
+    "fields": {
+      "name": "Haridwar",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 620,
+    "fields": {
+      "name": "Nainital",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 621,
+    "fields": {
+      "name": "Pauri Garhwal",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 622,
+    "fields": {
+      "name": "Pithoragarh",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 623,
+    "fields": {
+      "name": "Rudraprayag",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 624,
+    "fields": {
+      "name": "Tehri Garhwal",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 625,
+    "fields": {
+      "name": "Udham Singh Nagar",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 626,
+    "fields": {
+      "name": "Uttarkashi",
+      "state": 33
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 34,
+    "fields": {
+      "name": "Uttar Pradesh"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 627,
+    "fields": {
+      "name": "Agra",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 628,
+    "fields": {
+      "name": "Aligarh",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 629,
+    "fields": {
+      "name": "Allahabad",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 630,
+    "fields": {
+      "name": "Ambedkar Nagar",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 631,
+    "fields": {
+      "name": "Amethi (Chatrapati Sahuji Mahraj Nagar)",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 632,
+    "fields": {
+      "name": "Amroha (J.P. Nagar)",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 633,
+    "fields": {
+      "name": "Auraiya",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 634,
+    "fields": {
+      "name": "Azamgarh",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 635,
+    "fields": {
+      "name": "Baghpat",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 636,
+    "fields": {
+      "name": "Bahraich",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 637,
+    "fields": {
+      "name": "Ballia",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 638,
+    "fields": {
+      "name": "Balrampur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 639,
+    "fields": {
+      "name": "Banda",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 640,
+    "fields": {
+      "name": "Barabanki",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 641,
+    "fields": {
+      "name": "Bareilly",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 642,
+    "fields": {
+      "name": "Basti",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 643,
+    "fields": {
+      "name": "Bhadohi",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 644,
+    "fields": {
+      "name": "Bijnor",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 645,
+    "fields": {
+      "name": "Budaun",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 646,
+    "fields": {
+      "name": "Bulandshahr",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 647,
+    "fields": {
+      "name": "Chandauli",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 648,
+    "fields": {
+      "name": "Chitrakoot",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 649,
+    "fields": {
+      "name": "Deoria",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 650,
+    "fields": {
+      "name": "Etah",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 651,
+    "fields": {
+      "name": "Etawah",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 652,
+    "fields": {
+      "name": "Faizabad",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 653,
+    "fields": {
+      "name": "Farrukhabad",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 654,
+    "fields": {
+      "name": "Fatehpur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 655,
+    "fields": {
+      "name": "Firozabad",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 656,
+    "fields": {
+      "name": "Gautam Buddha Nagar",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 657,
+    "fields": {
+      "name": "Ghaziabad",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 658,
+    "fields": {
+      "name": "Ghazipur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 659,
+    "fields": {
+      "name": "Gonda",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 660,
+    "fields": {
+      "name": "Gorakhpur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 661,
+    "fields": {
+      "name": "Hamirpur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 662,
+    "fields": {
+      "name": "Hapur (Panchsheel Nagar)",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 663,
+    "fields": {
+      "name": "Hardoi",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 664,
+    "fields": {
+      "name": "Hathras",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 665,
+    "fields": {
+      "name": "Jalaun",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 666,
+    "fields": {
+      "name": "Jaunpur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 667,
+    "fields": {
+      "name": "Jhansi",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 668,
+    "fields": {
+      "name": "Kannauj",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 669,
+    "fields": {
+      "name": "Kanpur Dehat",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 670,
+    "fields": {
+      "name": "Kanpur Nagar",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 671,
+    "fields": {
+      "name": "Kanshiram Nagar (Kasganj)",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 672,
+    "fields": {
+      "name": "Kaushambi",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 673,
+    "fields": {
+      "name": "Kushinagar (Padrauna)",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 674,
+    "fields": {
+      "name": "Lakhimpur - Kheri",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 675,
+    "fields": {
+      "name": "Lalitpur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 676,
+    "fields": {
+      "name": "Lucknow",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 677,
+    "fields": {
+      "name": "Maharajganj",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 678,
+    "fields": {
+      "name": "Mahoba",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 679,
+    "fields": {
+      "name": "Mainpuri",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 680,
+    "fields": {
+      "name": "Mathura",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 681,
+    "fields": {
+      "name": "Mau",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 682,
+    "fields": {
+      "name": "Meerut",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 683,
+    "fields": {
+      "name": "Mirzapur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 684,
+    "fields": {
+      "name": "Moradabad",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 685,
+    "fields": {
+      "name": "Muzaffarnagar",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 686,
+    "fields": {
+      "name": "Pilibhit",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 687,
+    "fields": {
+      "name": "Pratapgarh",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 688,
+    "fields": {
+      "name": "RaeBareli",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 689,
+    "fields": {
+      "name": "Rampur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 690,
+    "fields": {
+      "name": "Saharanpur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 691,
+    "fields": {
+      "name": "Sambhal (Bhim Nagar)",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 692,
+    "fields": {
+      "name": "Sant Kabir Nagar",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 693,
+    "fields": {
+      "name": "Shahjahanpur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 694,
+    "fields": {
+      "name": "Shamali (Prabuddh Nagar)",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 695,
+    "fields": {
+      "name": "Shravasti",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 696,
+    "fields": {
+      "name": "Siddharth Nagar",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 697,
+    "fields": {
+      "name": "Sitapur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 698,
+    "fields": {
+      "name": "Sonbhadra",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 699,
+    "fields": {
+      "name": "Sultanpur",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 700,
+    "fields": {
+      "name": "Unnao",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 701,
+    "fields": {
+      "name": "Varanasi",
+      "state": 34
+    }
+  },
+  {
+    "model": "app.State",
+    "pk": 35,
+    "fields": {
+      "name": "West Bengal"
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 702,
+    "fields": {
+      "name": "Alipurduar",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 703,
+    "fields": {
+      "name": "Bankura",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 704,
+    "fields": {
+      "name": "Birbhum",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 705,
+    "fields": {
+      "name": "Burdwan (Bardhaman)",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 706,
+    "fields": {
+      "name": "Cooch Behar",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 707,
+    "fields": {
+      "name": "Dakshin Dinajpur (South Dinajpur)",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 708,
+    "fields": {
+      "name": "Darjeeling",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 709,
+    "fields": {
+      "name": "Hooghly",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 710,
+    "fields": {
+      "name": "Howrah",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 711,
+    "fields": {
+      "name": "Jalpaiguri",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 712,
+    "fields": {
+      "name": "Kalimpong",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 713,
+    "fields": {
+      "name": "Kolkata",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 714,
+    "fields": {
+      "name": "Malda",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 715,
+    "fields": {
+      "name": "Murshidabad",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 716,
+    "fields": {
+      "name": "Nadia",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 717,
+    "fields": {
+      "name": "North 24 Parganas",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 718,
+    "fields": {
+      "name": "Paschim Medinipur (West Medinipur)",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 719,
+    "fields": {
+      "name": "Purba Medinipur (East Medinipur)",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 720,
+    "fields": {
+      "name": "Purulia",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 721,
+    "fields": {
+      "name": "South 24 Parganas",
+      "state": 35
+    }
+  },
+  {
+    "model": "app.District",
+    "pk": 722,
+    "fields": {
+      "name": "Uttar Dinajpur (North Dinajpur)",
+      "state": 35
+    }
+  }
+]
